@@ -1,0 +1,35 @@
+html{ box-sizing: border-box;}
+body{
+  margin:0;
+  padding:0;
+  min-height:100vh;
+  background-image: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg");
+}
+.qualification{ align-items: center;
+  text-align: center;
+  color:purple;
+  font-size: 2.5rem;
+  padding-top: 200px;
+}
+.broad{ font-size: 1.5rem;
+  color:purple;
+  margin:10px;
+  text-align: center;
+  align-items: center;
+ align-content: center;
+ margin-top:0px;
+ }
+ #next{color:gold;
+    border:none;
+    background-color:#D31F96;
+    height:20px;
+    text-align: center;
+    align-items: center;
+    }
+    
+  
+ @media(min-width:768px) { body{
+  font-size: 2.5rem;
+  justify-content: space-around; }
+    }
+    
